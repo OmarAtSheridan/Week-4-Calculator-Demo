@@ -12,6 +12,6 @@ while perfectSquare <= maximum:
     if perfectSquare >= minimum and perfectSquare <= maximum:
         print(perfectSquare)
 
-    baseNumber = baseNumber + 1
+    baseNumber += 1
 
 
