@@ -7,11 +7,10 @@ maximum = int(input("Maximum value:"))
 
 while perfectSquare <= maximum:
 
-    perfectSquare = baseNumber**2
-
-    if perfectSquare >= minimum and perfectSquare <= maximum:
+    if perfectSquare >= minimum:
         print(perfectSquare)
 
     baseNumber += 1
+    perfectSquare = baseNumber**2
 
 
