@@ -17,5 +17,5 @@ while perfectSquare <= maximum:
     perfectSquare = baseNumber**2
 
 else:
-    print(f"Number of perfect squares in range: {counter}")
+    print(f"Number of stuff: {counter}")
 
